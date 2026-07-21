@@ -2,7 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Professional portfolio of Thant Zin, Digital Products and Projects Manager specializing in banking, fintech, digital payments, and digital transformation."
+    >
+
     <title>Thant Zin | Digital Products & Projects Manager</title>
 
     <link rel="stylesheet" href="style.css">
@@ -10,20 +17,346 @@
 
 <body>
 
-    <header>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Thant Zin</a>
 
-        <h1>Thant Zin</h1>
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
 
-        <h2>Digital Products & Projects Manager</h2>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-        <p>
-            Banking | FinTech | Digital Payments | Products & Projects Management
-        </p>
-
+            <button
+                class="theme-toggle"
+                id="theme-toggle"
+                type="button"
+                aria-label="Switch theme"
+                title="Switch theme"
+            >
+                🌙
+            </button>
+        </nav>
     </header>
 
+    <main>
+
+        <!-- Home / Hero -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
+
+                <p class="hero-label">
+                    Digital Products & Projects Manager
+                </p>
+
+                <h1>Hi, I’m Thant Zin.</h1>
+
+                <h2>
+                    Driving Digital Banking Transformation through Product Innovation and Project Excellence
+                </h2>
+
+                <p class="hero-description">
+                    Digital Products and Projects Manager with around 10 years of experience in banking, fintech, digital payments, and financial services. Experienced in leading end-to-end product development and project implementation, transforming business ideas and customer needs into practical digital solutions that enhance customer experience and operational efficiency.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Achieved Projects
+                    </a>
+
+                    <a
+                        href="assets/resume/Thant-Zin-Resume.pdf"
+                        class="btn btn-secondary"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View Resume
+                    </a>
+                </div>
+
+                <div class="career-highlights">
+                    <div class="highlight-item">
+                        <strong>10+</strong>
+                        <span>Years of Experience</span>
+                    </div>
+
+                    <div class="highlight-item">
+                        <strong>Banking</strong>
+                        <span>Industry Expertise</span>
+                    </div>
+
+                    <div class="highlight-item">
+                        <strong>FinTech</strong>
+                        <span>Digital Innovation</span>
+                    </div>
+
+                    <div class="highlight-item">
+                        <strong>Payments</strong>
+                        <span>Product Experience</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">About Me</p>
+                    <h2>Professional Profile</h2>
+                </div>
+
+                <div class="about-content">
+                    <p>
+                        I am a Digital Products and Projects Manager with around
+                        10 years of professional experience in product development
+                        and project management across banking, fintech, digital
+                        payments, and financial services.
+                    </p>
+
+                    <p>
+                        My experience includes managing enterprise digital banking
+                        initiatives, coordinating cross-functional teams, defining
+                        business and product requirements, managing vendors, and
+                        delivering customer-focused digital solutions.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="section section-alt" id="experience">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">Experience</p>
+                    <h2>Professional Experience</h2>
+                </div>
+
+                <article class="experience-card">
+                    <div class="experience-header">
+                        <div>
+                            <h3>Digital Products & Projects Manager</h3>
+                            <p class="organization">AYA Bank</p>
+                        </div>
+
+                        <p class="experience-period">Current Role</p>
+                    </div>
+
+                    <ul>
+                        <li>
+                            Lead digital banking product development and project
+                            implementation across business and technology teams.
+                        </li>
+
+                        <li>
+                            Manage project scope, timelines, risks, stakeholders,
+                            vendors, UAT, deployment, and post-launch support.
+                        </li>
+
+                        <li>
+                            Support digital transformation initiatives across
+                            corporate banking, mobile banking, internet banking,
+                            and payment services.
+                        </li>
+                    </ul>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section" id="projects">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">Portfolio</p>
+                    <h2>Featured Projects</h2>
+                </div>
+
+                <div class="project-grid">
+
+                    <article class="project-card">
+                        <p class="project-category">Corporate Banking</p>
+                        <h3>New Corporate Internet Banking Platform</h3>
+                        <p>
+                            Managed end-to-end implementation of a modern digital
+                            banking platform for corporate customers.
+                        </p>
+                        <p class="project-role">
+                            Role: Project Manager
+                        </p>
+                    </article>
+
+                    <article class="project-card">
+                        <p class="project-category">Digital Banking</p>
+                        <h3>Mobile and Internet Banking Applications</h3>
+                        <p>
+                            Supported the implementation and rollout of enhanced
+                            digital banking channels and customer services.
+                        </p>
+                        <p class="project-role">
+                            Role: Project Manager
+                        </p>
+                    </article>
+
+                    <article class="project-card">
+                        <p class="project-category">Digital Payments</p>
+                        <h3>Bill Payment and Biller Management Platform</h3>
+                        <p>
+                            Managed the implementation of bill payment, biller
+                            management, and transaction reporting capabilities.
+                        </p>
+                        <p class="project-role">
+                            Role: Product Owner
+                        </p>
+                    </article>
+
+                    <article class="project-card">
+                        <p class="project-category">Core Banking</p>
+                        <h3>Core Banking System RFP</h3>
+                        <p>
+                            Led requirements coordination, vendor evaluation,
+                            proposal assessment, and solution selection support.
+                        </p>
+                        <p class="project-role">
+                            Role: Project Manager
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section section-alt" id="skills">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">Expertise</p>
+                    <h2>Core Skills</h2>
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-group">
+                        <h3>Product Management</h3>
+                        <ul>
+                            <li>Product Strategy</li>
+                            <li>Product Roadmaps</li>
+                            <li>Requirement Management</li>
+                            <li>Product Lifecycle Management</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>Project Management</h3>
+                        <ul>
+                            <li>Project Planning</li>
+                            <li>Risk and Issue Management</li>
+                            <li>Stakeholder Management</li>
+                            <li>Vendor Management</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>Banking and FinTech</h3>
+                        <ul>
+                            <li>Digital Banking</li>
+                            <li>Corporate Banking</li>
+                            <li>Digital Payments</li>
+                            <li>Core Banking</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>Delivery</h3>
+                        <ul>
+                            <li>Agile and Waterfall</li>
+                            <li>Business Analysis</li>
+                            <li>UAT Coordination</li>
+                            <li>Production Deployment</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="container contact-content">
+
+                <div class="section-heading">
+                    <p class="section-label">Contact</p>
+                    <h2>Let’s Connect</h2>
+                </div>
+
+                <p>
+                    I am open to professional networking and opportunities in
+                    digital banking, fintech, product management, project
+                    management, and digital transformation.
+                </p>
+
+                <div class="contact-links">
+                    <a
+                        href="mailto:your-email@example.com"
+                        class="btn btn-primary"
+                    >
+                        Email Me
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/your-linkedin-profile/"
+                        class="btn btn-secondary"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        LinkedIn
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>
+                © <span id="current-year"></span> Thant Zin.
+                All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <button
+        class="back-to-top"
+        id="back-to-top"
+        type="button"
+        aria-label="Back to top"
+    >
+        ↑
+    </button>
+
     <script src="script.js"></script>
-
 </body>
-
 </html>
