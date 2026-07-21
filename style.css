@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f7fa;
+}
+
+header{
+
+    background:#0A4D8C;
+
+    color:white;
+
+    text-align:center;
+
+    padding:80px 20px;
+
+}
+
+h1{
+
+    font-size:48px;
+
+    margin-bottom:10px;
+
+}
+
+h2{
+
+    font-weight:300;
+
+}
+
+p{
+
+    font-size:20px;
+
+}
