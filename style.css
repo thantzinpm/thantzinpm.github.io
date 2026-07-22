@@ -442,7 +442,7 @@ button {
 }
 
 .profile-frame {
-    width: min(100%, 330px);
+    width: min(100%, 280px);
     aspect-ratio: 4 / 5;
     padding: 10px;
     border: 1px solid var(--border);
