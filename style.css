@@ -462,11 +462,11 @@ button {
 
 .profile-tag {
     position: absolute;
-    right: -20px;
-    bottom: 24px;
+    right: -22px;
+    bottom: 28px;
     display: flex;
     flex-direction: column;
-    min-width: 210px;
+    min-width: 220px;
     padding: 16px 18px;
     border: 1px solid var(--border);
     border-radius: 16px;
@@ -476,12 +476,13 @@ button {
 
 .profile-tag strong {
     color: var(--heading);
+    font-size: 0.95rem;
 }
 
 .profile-tag span {
-    margin-top: 3px;
+    margin-top: 4px;
     color: var(--text-muted);
-    font-size: 0.82rem;
+    font-size: 0.8rem;
 }
 
 @media (max-width: 900px) {
