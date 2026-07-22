@@ -391,9 +391,12 @@ button {
         grid-template-columns: 1fr;
     }
 
-    .hero {
-        padding: 70px 0;
-    }
+    .hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    padding:100px 0;
+}
 
     .hero-actions {
         flex-direction: column;
