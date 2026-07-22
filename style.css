@@ -148,11 +148,16 @@ button {
     padding: 90px 0;
 }
 
-.hero-grid {
-    display: grid;
-    grid-template-columns: minmax(0, 1.4fr) minmax(280px, 0.6fr);
-    gap: 80px;
-    align-items: center;
+.hero-grid{
+
+display:grid;
+
+grid-template-columns:1.3fr 0.7fr;
+
+align-items:center;
+
+gap:80px;
+
 }
 
 .availability {
