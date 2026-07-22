@@ -502,3 +502,28 @@ button {
         width: 100%;
     }
 }
+
+.metrics {
+    padding: 0 0 90px;
+}
+
+.metric-card {
+    min-height: 145px;
+    padding: 26px 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.metric-card strong {
+    color: var(--heading);
+    font-size: clamp(1.35rem, 2vw, 2rem);
+    line-height: 1.15;
+}
+
+.metric-card span {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
