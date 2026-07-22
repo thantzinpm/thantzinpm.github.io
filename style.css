@@ -527,3 +527,10 @@ button {
     font-size: 0.9rem;
     line-height: 1.5;
 }
+
+@media (min-width: 1400px) {
+    .hero {
+        padding-top: 100px;
+        padding-bottom: 90px;
+    }
+}
