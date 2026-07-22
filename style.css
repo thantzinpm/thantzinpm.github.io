@@ -144,23 +144,23 @@ button {
 .hero {
     display: flex;
     align-items: center;
-    padding: 90px 0 70px;
+    padding: 55px 0 45px;
 }
 
 .hero-grid {
     display: grid;
     grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
     align-items: center;
-    gap: 64px;
+    gap: 48px;
 }
 
 .availability {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
     color: var(--text-muted);
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     font-weight: 600;
 }
 
@@ -182,25 +182,26 @@ button {
 }
 
 .hero h1 {
-    margin-top: 12px;
+    margin-top: 10px;
     color: var(--heading);
-    font-size: clamp(3rem, 8vw, 6.5rem);
-    line-height: 0.98;
-    letter-spacing: -0.06em;
+    font-size: clamp(3rem, 6vw, 5.4rem);
+    line-height: 1;
+    letter-spacing: -0.05em;
 }
 
 .hero h2 {
-    margin-top: 24px;
+    margin-top: 20px;
     color: var(--heading);
-    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
     line-height: 1.25;
 }
 
 .hero-summary {
     max-width: 700px;
-    margin-top: 28px;
+    margin-top: 24px;
     color: var(--text-muted);
-    font-size: 1.08rem;
+    font-size: 1rem;
+    line-height: 1.7;
 }
 
 .hero-actions {
@@ -441,8 +442,8 @@ button {
 }
 
 .profile-frame {
-    width: min(100%, 380px);
-    aspect-ratio: 1 / 1;
+    width: min(100%, 330px);
+    aspect-ratio: 4 / 5;
     padding: 10px;
     border: 1px solid var(--border);
     border-radius: 32px;
