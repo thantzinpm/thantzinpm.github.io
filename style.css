@@ -73,7 +73,7 @@ button {
 }
 
 .container {
-    width: min(92% - 1200px, var(--maximum-width));
+    width: min(92%, var(--maximum-width));
     margin-inline: auto;
 }
 
