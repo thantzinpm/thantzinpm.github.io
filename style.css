@@ -458,8 +458,8 @@ gap:80px;
 }
 
 .profile-frame img {
-    width: 100%;
-    height: 100%;
+    width: 360%;
+    height: 360%;
     object-fit: cover;
     object-position: center top;
     border-radius: 24px;
