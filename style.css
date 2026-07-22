@@ -145,19 +145,14 @@ button {
     min-height: calc(100vh - 76px);
     display: flex;
     align-items: center;
-    padding: 90px 0;
+    padding: 80px 0;
 }
 
-.hero-grid{
-
-display:grid;
-
-grid-template-columns:1.3fr 0.7fr;
-
-align-items:center;
-
-gap:80px;
-
+.hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+    align-items: center;
+    gap: 64px;
 }
 
 .availability {
