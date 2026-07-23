@@ -532,17 +532,20 @@ button {
 }
 
 .metric-card {
-    min-height: 115px;
-    padding: 20px 18px;
+    min-height: 90px;
+    padding: 16px 18px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 6px;
+    gap: 4px;
+
+    border-radius: 18px;
 }
 
 .metric-card strong {
     color: var(--heading);
-    font-size: 1.5rem;
+    font-size: 1.9rem;
+    font-weight: 700;
     line-height: 1.1;
 }
 
