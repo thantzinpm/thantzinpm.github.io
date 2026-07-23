@@ -321,7 +321,7 @@ button {
 }
 
 .section-heading {
-    max-width: 720px;
+    max-width: 100%;
     margin-bottom: 32px;
 }
 
@@ -659,4 +659,9 @@ button {
         min-height: auto;
         padding: 20px;
     }
+}
+
+#expertise {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
