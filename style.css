@@ -588,3 +588,18 @@ button {
         padding: 10px 0 45px;
     }
 }
+
+.hero-name {
+    color: var(--heading);
+    font-size: clamp(3rem, 5vw, 4.8rem);
+    line-height: 1.1;
+    margin-top: 0;
+}
+
+.hero-name .greeting {
+    color: var(--primary);
+    font-size: 0.35em;
+    font-weight: 600;
+    margin-right: 12px;
+    vertical-align: middle;
+}
