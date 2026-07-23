@@ -603,3 +603,14 @@ button {
         padding: 10px 0 45px;
     }
 }
+
+.expertise-summary {
+    max-width: none;
+    white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+    .expertise-summary {
+        white-space: normal;
+    }
+}
