@@ -275,10 +275,6 @@ button {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.expertise-grid {
-    grid-template-columns: repeat(3, 1fr);
-}
-
 .domain-grid,
 .project-grid,
 .toolkit-grid {
@@ -610,11 +606,6 @@ button {
     white-space: nowrap;
 }
 
-.expertise-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 18px;
-}
-
 .content-card {
     min-height: 220px;
     padding: 24px;
@@ -645,11 +636,6 @@ button {
         white-space: normal;
     }
 
-    .expertise-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
 @media (max-width: 600px) {
     .expertise-grid {
         grid-template-columns: 1fr;
@@ -664,4 +650,42 @@ button {
 #expertise {
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.container {
+    width: min(92%, var(--maximum-width));
+    margin-inline: auto;
+}
+
+.section-heading {
+    max-width: 100%;
+    margin-bottom: 32px;
+}
+
+.expertise-summary {
+    width: 100%;
+    max-width: none;
+    white-space: nowrap;
+}
+
+.expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+@media (max-width: 900px) {
+    .expertise-summary {
+        white-space: normal;
+    }
+
+    .expertise-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .expertise-grid {
+        grid-template-columns: 1fr;
+    }
 }
