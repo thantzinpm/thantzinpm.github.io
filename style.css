@@ -548,7 +548,7 @@ button {
 
 .metric-card span {
     color: var(--text-muted);
-    font-size: 0.85rem;
+    font-size: 0.79rem;
     line-height: 1.4;
     font-weight: 500;
 }
