@@ -689,21 +689,3 @@ button {
         grid-template-columns: 1fr;
     }
 }
-
-#expertise .section-heading {
-    width: 100%;
-    max-width: none;
-}
-
-#expertise .expertise-summary {
-    display: block;
-    width: 100%;
-    max-width: none;
-    white-space: nowrap;
-}
-
-@media (max-width: 900px) {
-    #expertise .expertise-summary {
-        white-space: normal;
-    }
-}
