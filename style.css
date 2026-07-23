@@ -200,8 +200,8 @@ button {
 .hero-name .greeting {
     display: inline;
     color: var(--primary);
-    font-size: clamp(2.7rem, 4vw, 3.5rem);
-    font-weight: 600;
+    font-size: clamp(2.2rem, 3.5vw, 3rem);
+    font-weight: 650;
     letter-spacing: 0;
     text-transform: none;
     vertical-align: middle;
