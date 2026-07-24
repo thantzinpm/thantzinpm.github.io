@@ -330,7 +330,7 @@ button {
 .contact-section h2 {
     margin-top: 12px;
     color: var(--heading);
-    font-size: clamp(2rem, 4vw, 3.3rem);
+    font-size: clamp(1.8rem, 2.8vw, 2.6rem);
     line-height: 1.15;
     letter-spacing: -0.04em;
 }
