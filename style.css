@@ -355,10 +355,13 @@ button {
 }
 
 .skill-tags span {
-    font-size: 0.79rem;
     padding: 6px 10px;
+    border: 0.7px solid var(--border);
     border-radius: 10px;
-    line-height: 1.2;
+    background: var(--surface-secondary);
+    color: var(--text-muted);
+    font-size: 0.79rem;
+    font-weight: 400;
 }
 
 /* ===== Projects ===== */
