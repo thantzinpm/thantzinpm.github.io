@@ -268,7 +268,7 @@ button {
 .toolkit-grid,
 .metrics-grid {
     display: grid;
-    gap: 24px;
+    gap: 18px;
 }
 
 .metrics-grid {
@@ -282,7 +282,7 @@ button {
 .domain-grid,
 .project-grid,
 .toolkit-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .metric-card,
