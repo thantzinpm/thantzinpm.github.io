@@ -707,3 +707,32 @@ button {
     max-width: none;
     white-space: nowrap;
 }
+
+@media (max-width: 768px) {
+
+    .expertise-summary {
+        white-space: normal;
+    }
+
+    #expertise .expertise-summary {
+        white-space: normal;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .expertise-summary {
+        white-space: normal;
+    }
+
+    #expertise .expertise-summary {
+        white-space: normal;
+    }
+
+}
