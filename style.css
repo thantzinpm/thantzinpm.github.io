@@ -405,6 +405,52 @@ button {
     padding-bottom: 50px;
 }
 
+/* =========================
+   Professional Capabilities
+========================= */
+
+#skills {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#skills .section-heading {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 24px;
+}
+
+#skills .toolkit-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+}
+
+#skills .toolkit-group {
+    min-height: auto;
+    padding: 20px;
+    border-radius: 18px;
+}
+
+#skills .toolkit-group h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.3;
+}
+
+#skills .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 14px;
+}
+
+#skills .skill-tags span {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+    line-height: 1.3;
+}
+
 @media (max-width: 900px) {
     .hero-grid,
     .about-grid,
