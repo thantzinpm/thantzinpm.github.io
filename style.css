@@ -308,8 +308,8 @@ button {
 .domain-card,
 .project-card,
 .toolkit-group {
-    min-height: 220px;
-    padding: 24px;
+    min-height: 180px;
+    padding: 22px;
 }
 
 .content-card,
