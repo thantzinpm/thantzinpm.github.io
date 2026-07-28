@@ -452,36 +452,126 @@ button {
 }
 
 /* ===========================
-   Career
+   Career Timeline
 =========================== */
 
-.career-meta {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 12px 0 18px;
-    gap: 20px;
-    flex-wrap: wrap;
+.timeline {
+    position: relative;
+    margin-top: 50px;
+    padding-left: 45px;
 }
 
-.career-company {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: var(--primary);
-    font-weight: 600;
-    font-size: 0.95rem;
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 12px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--primary);
 }
 
-.career-company i {
-    color: var(--primary);
-    font-size: 15px;
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
 }
 
-.career-date {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-    white-space: nowrap;
+.timeline-dot {
+    position: absolute;
+    left: -41px;
+    top: 34px;
+
+    width: 18px;
+    height: 18px;
+
+    border-radius: 50%;
+
+    background: var(--primary);
+
+    border: 4px solid var(--background);
+
+    z-index: 2;
+}
+
+.career-card {
+
+    background: var(--surface);
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    border-radius: 18px;
+
+    padding: 28px;
+
+    transition: .3s;
+}
+
+.career-card:hover {
+
+    border-color: var(--primary);
+
+    transform: translateY(-4px);
+
+}
+
+.career-card h3{
+
+    margin-bottom:18px;
+
+    font-size:1.5rem;
+
+}
+
+.career-meta{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    margin-bottom:18px;
+
+}
+
+.career-company{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    color:var(--primary);
+
+    font-weight:600;
+
+}
+
+.career-company i{
+
+    font-size:15px;
+
+}
+
+.career-date{
+
+    color:var(--text-secondary);
+
+    font-size:.95rem;
+
+}
+
+.career-card p{
+
+    color:var(--text-secondary);
+
+    line-height:1.8;
+
+    margin:0;
+
 }
 
 @media (max-width: 900px) {
