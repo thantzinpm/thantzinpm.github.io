@@ -355,8 +355,8 @@ button {
 }
 
 .skill-tags span {
-    padding: 6px 10px;
-    border: 0.79px solid var(--border);
+    padding: 5px 9px;
+    border: 0.70px solid var(--border);
     border-radius: 10px;
     background: var(--surface-secondary);
     color: var(--text-muted);
