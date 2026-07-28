@@ -735,4 +735,9 @@ button {
         white-space: normal;
     }
 
+    .project-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
 }
