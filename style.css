@@ -598,6 +598,54 @@ button {
 
 }
 
+/* Career card heading and date */
+.career-card .career-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.career-card .career-header h3 {
+    margin: 0;
+    color: var(--heading);
+    font-size: 1.25rem;
+    line-height: 1.3;
+}
+
+.career-card .career-date {
+    flex-shrink: 0;
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 0.88rem;
+    line-height: 1.3;
+    white-space: nowrap;
+}
+
+.career-card .career-company {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 12px;
+    color: var(--primary);
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.career-card .career-company i {
+    color: var(--primary);
+    font-size: 14px;
+}
+
+.career-card > p {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
 @media (max-width: 900px) {
     .hero-grid,
     .about-grid,
