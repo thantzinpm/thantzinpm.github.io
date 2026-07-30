@@ -458,7 +458,7 @@ button {
 .timeline {
     position: relative;
     display: grid;
-    gap: 24px;
+    gap: 18px;
     margin-top: 28px;
     padding-left: 45px;
 }
