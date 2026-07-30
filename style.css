@@ -602,7 +602,7 @@ button {
 .career-card .career-header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: baseline;
     gap: 24px;
     width: 100%;
     margin-bottom: 10px;
