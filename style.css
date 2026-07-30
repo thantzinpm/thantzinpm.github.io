@@ -473,7 +473,7 @@ button {
 
 .timeline-item {
     position: relative;
-    margin-bottom: 26px;
+    margin-bottom: 36px;
 }
 
 .timeline-dot {
@@ -484,7 +484,7 @@ button {
     width: 18px;
     height: 18px;
 
-    border-radius: 50%;
+    border-radius: 22px;
 
     background: var(--primary);
 
@@ -503,7 +503,7 @@ button {
 
     padding: 18px 22px;
 
-    transition: .3s;
+    transition: 0.3s ease;
 }
 
 .career-card:hover {
@@ -511,6 +511,8 @@ button {
     border-color: var(--primary);
 
     transform: translateY(-4px);
+
+    box-shadow:0 12px 30px rgba(56,139,253,.15);
 
 }
 
