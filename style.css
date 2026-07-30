@@ -556,14 +556,6 @@ button {
 
 }
 
-.career-date{
-
-    color:var(--text-secondary);
-
-    font-size:0.81rem;
-
-}
-
 .career-card p{
 
     color:var(--text-secondary);
@@ -574,6 +566,36 @@ button {
     
     margin-top:8px;
     
+}
+
+.career-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    gap:20px;
+
+    margin-bottom:12px;
+
+}
+
+.career-header h3{
+
+    margin:0;
+
+}
+
+.career-date{
+
+    font-size:.9rem;
+
+    color:var(--text-secondary);
+
+    white-space:nowrap;
+
 }
 
 @media (max-width: 900px) {
