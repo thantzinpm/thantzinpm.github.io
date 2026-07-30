@@ -988,4 +988,13 @@ button {
     gap: 16px;
 }
 
+    @media (max-width: 600px) {
+    .career-card .career-header {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .career-card .career-date {
+        white-space: normal;
+    }
 }
