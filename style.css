@@ -754,10 +754,10 @@ button {
     }
 
     .hero{
-    min-height:100vh;
-    display:flex;
-    align-items:center;
-    padding:100px 0;
+        min-height: auto;
+        padding-top: 32px;
+        padding-bottom: 42px;
+        align-items: flex-start;
 }
 
     .hero-actions {
@@ -1151,5 +1151,54 @@ button {
         line-height: 1.35;
         white-space: normal !important;
         overflow-wrap: anywhere;
+    }
+}
+
+/* =========================================
+   Final Mobile Hero Fix
+========================================= */
+
+@media screen and (max-width: 600px) {
+
+    .hero {
+        min-height: auto !important;
+        padding-top: 32px !important;
+        padding-bottom: 42px !important;
+        align-items: flex-start !important;
+    }
+
+    .hero-content {
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .hero-title {
+        display: block !important;
+        margin: 0 0 22px !important;
+        line-height: 1 !important;
+    }
+
+    .hero-greeting {
+        display: block !important;
+        margin: 0 0 10px !important;
+
+        color: var(--primary);
+        font-size: 1.65rem !important;
+        font-weight: 700;
+        line-height: 1.15 !important;
+        letter-spacing: -0.02em;
+        white-space: normal !important;
+    }
+
+    .hero-name {
+        display: block !important;
+        margin: 0 !important;
+
+        color: var(--heading);
+        font-size: clamp(3.4rem, 16vw, 4.4rem) !important;
+        font-weight: 700;
+        line-height: 0.95 !important;
+        letter-spacing: -0.05em;
+        white-space: nowrap !important;
     }
 }
