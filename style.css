@@ -1182,7 +1182,7 @@ button {
         display: block !important;
         margin: 0 0 10px !important;
 
-        color: var(--primary);
+        color: var(--primary);   /* Blue */
         font-size: 1.65rem !important;
         font-weight: 700;
         line-height: 1.15 !important;
