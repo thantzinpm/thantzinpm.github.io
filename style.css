@@ -191,7 +191,7 @@ button {
 
 .hero-name {
     margin: 0;
-    color: var(--heading);
+    color: var(--heading) !important;
     font-size: clamp(3.3rem, 5.5vw, 5rem);
     font-weight: 800;
     line-height: 1.1;
@@ -199,7 +199,7 @@ button {
 
 .hero-name .greeting {
     display: inline;
-    color: var(--primary);
+    color: var(--primary) !important;
     font-size: clamp(1.8rem, 2.7vw, 2.2rem);
     font-weight: 630;
     letter-spacing: 0;
