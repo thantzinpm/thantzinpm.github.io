@@ -1055,4 +1055,14 @@ button {
     #contact .contact-card {
         min-height: 82px;
     }        
+
+        /* ==========================
+   Mobile Responsive
+========================== */
+
+@media (max-width:768px){
+
+    .project-grid{
+        grid-template-columns:1fr;
+    }
 }
