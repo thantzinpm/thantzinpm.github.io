@@ -189,23 +189,32 @@ button {
     text-transform: uppercase;
 }
 
-.hero-name {
+/* Hero name — desktop */
+
+.hero-title {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 12px;
     margin: 0;
-    color: var(--heading) !important;
-    font-size: clamp(3.3rem, 5.5vw, 5rem);
-    font-weight: 800;
     line-height: 1.1;
 }
 
-.hero-name .greeting {
-    display: inline;
+.hero-greeting {
     color: var(--primary) !important;
     font-size: clamp(1.8rem, 2.7vw, 2.2rem);
-    font-weight: 630;
+    font-weight: 700;
+    line-height: 1.15;
     letter-spacing: 0;
     text-transform: none;
-    vertical-align: middle;
-    margin-right: 12px;
+}
+
+.hero-name {
+    color: var(--heading) !important;
+    font-size: clamp(3.3rem, 5.5vw, 5rem);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.04em;
 }
 
 .hero h2 {
